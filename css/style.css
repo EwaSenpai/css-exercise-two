@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 18px;
 }
 
 nav {
@@ -10,26 +11,58 @@ nav {
   width: 100%;
 }
 
+h1 {
+  font-size: 42px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.5em;
+  padding-bottom: 15px;
+}
+
+figcaption {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 100%;
+  line-height: 2em;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
 .logo {
   margin: 20px;
   width: 100px;
 }
 
 .large-pic {
+  margin: 30px;
   width: 100%;
+  padding: 20px;
 }
 
 .medium-pic {
-  width: 70%;
+  width: 300px;
 }
 
-.left, .right {
+.left {
   float: left;
   width: 50%;
 }
 
 .right {
   float: right;
+  width: 50%;
 }
 
 ul {
@@ -37,14 +70,26 @@ ul {
   float: right;
 }
 
-li {
+li a {
   float: right;
   padding: 30px;
+  text-decoration: none;
 }
+
+a:link { color:#0000FF; } /* unvisited */
+a:visited { color:#0000FF; } /* visited */
+a:hover { color:#0070BC; } /* mouse over */
+a:active { color:#0070BD; } /* selected */
 
 article {
   padding-top: 100px;
 }
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
 
 .container {
   margin: 0 auto;
